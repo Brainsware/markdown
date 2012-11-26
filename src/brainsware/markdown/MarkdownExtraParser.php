@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace dflydev\markdown;
+namespace brainsware\markdown;
 
 class MarkdownExtraParser extends MarkdownParser {
 

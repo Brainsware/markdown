@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace dflydev\markdown;
+namespace brainsware\markdown;
 
-class MarkdownParser implements IMarkdownParser {
+class MarkdownParser {
 
     /**
      * Default suffix for empty elements
