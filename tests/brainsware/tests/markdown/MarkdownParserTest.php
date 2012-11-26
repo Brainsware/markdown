@@ -9,26 +9,26 @@
  * file that was distributed with this source code.
  */
 
-namespace dflydev\tests\markdown;
+namespace brainsware\tests\markdown;
 
-use dflydev\markdown\MarkdownParser;
+use brainsware\markdown\MarkdownParser;
 
 class MarkdownParserTest extends \PHPUnit_Framework_TestCase
 {
     
-    protected $configKeyTabWidth = \dflydev\markdown\MarkdownParser::CONFIG_TAB_WIDTH;
+    protected $configKeyTabWidth = \brainsware\markdown\MarkdownParser::CONFIG_TAB_WIDTH;
 
     /**
      * Create a markdown parser.
      * @param array $configuration Optional configuration
-     * @return \dflydev\markdown\IMarkdownParser
+     * @return \brainsware\markdown\IMarkdownParser
      */
     public function createParser($configuration = null)
     {
         if ( $configuration !== null ) {
-            return new \dflydev\markdown\MarkdownParser($configuration);
+            return new \brainsware\markdown\MarkdownParser($configuration);
         }
-        return new \dflydev\markdown\MarkdownParser();
+        return new \brainsware\markdown\MarkdownParser();
     }
 
     /**
@@ -62,7 +62,7 @@ class MarkdownParserTest extends \PHPUnit_Framework_TestCase
 
     /**
      * Configure a Markdown parser for a specific tab width
-     * @param \dflydev\markdown\MarkdownParser $markdownParser
+     * @param \brainsware\markdown\MarkdownParser $markdownParser
      * @param integer $width
      */
     protected function configureTabWidth(MarkdownParser $markdownParser, $width)

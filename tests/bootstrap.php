@@ -9,4 +9,4 @@
  */
 
 $loader = require dirname(__DIR__).'/vendor/autoload.php';
-$loader->add('dflydev\\tests\\markdown', 'tests');
+$loader->add('brainsware\\tests\\markdown', 'tests');
