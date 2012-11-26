@@ -5,6 +5,8 @@ An updated and stripped version of the original [PHP Markdown](http://michelf.co
 by [Michel Fortin](http://michelf.com/). Works quite well with PSR-0
 autoloaders and is [Composer](http://packagist.org/) friendly.
 
+This is a fork from dflydev, to strip it down even more and simplify.
+
 
 Changes from the official PHP Markdown & Extra
 ----------------------------------------------
